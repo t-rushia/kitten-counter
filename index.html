@@ -11,16 +11,16 @@
     <h1>Kitten Counter</h1>
 
     <div class="btn-container">
-      <button>Increment</button>
-      <button>Decrement</button>
-      <button>Log</button>
-      <button>Reset</button>
+      <button onclick="increment()">Increment</button>
+      <button onclick="decrement()">Decrement</button>
+      <button onclick="logEntry()">Log</button>
+      <button onclick="reset()">Reset</button>
     </div>
 
     <div class="count-container">
       <div class="kitten-count">
         <span>Kittens:</span>
-        <p id="kitten-el"></p>
+        <p id="kitten-el">0</p>
       </div>
       <div class="kitten-count">
         <span>Entries:</span>
