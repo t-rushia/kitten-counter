@@ -42,6 +42,18 @@ button:hover {
   box-shadow: 0 0 5px white;
 }
 
+span {
+  font-family: "Poppins", sans-serif;
+  color: #78c1f3;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.kitten-count p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
 img {
   width: 800px;
 }
@@ -52,11 +64,28 @@ img {
   align-items: center;
   gap: 10px;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 10px;
+}
+
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 250px;
+}
+
+.kitten-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
 }
 
 .img-container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
